@@ -1,0 +1,26 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class homework {
+	public static void main(String[] args) {
+		ArrayList<String> student = new ArrayList<String>();
+		ArrayList<String> korea = new ArrayList<String>();
+		ArrayList<String> english = new ArrayList<String>();
+		ArrayList<String> math = new ArrayList<String>();
+
+		System.out.println("학생 관리 프로그램");
+		while (true) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("1. 학생 추가");
+			System.out.println("2. 학생 삭제");
+			System.out.println("3. 학생 검색");
+			System.out.println("4. 전체 출력");
+			System.out.println("5. 평균 점수 출력");
+			
+			int menu = sc.nextInt();
+			System.out.println("메뉴 입력 : " + menu);
+
+		}
+
+	}
+}

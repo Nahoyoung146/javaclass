@@ -1,0 +1,23 @@
+package Animal;
+
+public class Class22 {
+
+}
+
+// 추상 클래스 : 추상 메서드를 포함한 클래스 (객체화X)
+
+//Animal (동물) - Eat()
+
+//Bird (새) - wings
+
+//Eagle(독수리) : wings, Fly()
+//Penguin(펭귄) : wings, Swim()
+//Duck(오리) : wings, Fly(), Swim()
+//Parrot(앵무새) : wings, Fly()
+
+//Fish - gill
+
+//dolphin(돌고래) : gill, Swim()
+//Whale(고래) : gill,  Swim()
+//Flyfish(날치) : gill, Swim(), Fly()
+//Cutlassfish(갈치) : gill, Swim()

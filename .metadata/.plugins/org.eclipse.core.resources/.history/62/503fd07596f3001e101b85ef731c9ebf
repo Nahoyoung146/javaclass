@@ -1,0 +1,61 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class homework {
+	public static void main(String[] args) {
+		ArrayList<String> student = new ArrayList<String>();
+		ArrayList<String> korea = new ArrayList<String>();
+		ArrayList<String> english = new ArrayList<String>();
+		ArrayList<String> math = new ArrayList<String>();
+
+		System.out.println("학생 관리 프로그램");
+		while (true) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("1. 학생 추가");
+			System.out.println("2. 학생 삭제");
+			System.out.println("3. 학생 검색");
+			System.out.println("4. 전체 출력");
+			System.out.println("5. 평균 점수 출력");
+			System.out.println("6. 프로그램 종료");
+			
+			int menu = sc.nextInt();
+			System.out.println("메뉴 입력 : " + menu);
+			
+			if (menu==1) {
+				for(int i=0;i<student.size();i++) {
+					String name = sc.next();
+					System.out.println("이름 입력 : " + name);
+					
+				}
+				
+			}
+			
+			else if (menu==2) {
+				
+			}
+			
+			else if (menu==3) {
+				
+			}
+			
+			else if (menu==4) {
+				
+			}
+
+			else if (menu==5) {
+	
+			}
+			
+			else if (menu==6) {
+				System.out.println("프로그램을 종료합니다.");
+				break;
+			}
+			
+			else {
+				System.out.println("잘못된 입력입니다. 다시 입력하세요");
+			}
+
+		}
+
+	}
+}

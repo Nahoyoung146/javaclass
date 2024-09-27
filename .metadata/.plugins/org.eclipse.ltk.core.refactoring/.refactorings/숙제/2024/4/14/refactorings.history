@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;숙제/src/ans&apos;&#x0D;&#x0A;- Original project: &apos;숙제&apos;&#x0D;&#x0A;- Destination element: &apos;숙제/src/ans&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     숙제.RPG.java&#x0D;&#x0A;     숙제.main.java&#x0D;&#x0A;     숙제.FPS.java&#x0D;&#x0A;     숙제.RTS.java&#x0D;&#x0A;     숙제.Game.java" description="Copy compilation units" destination="/src&lt;ans" element1="/src&lt;숙제{RPG.java" element2="/src&lt;숙제{main.java" element3="/src&lt;숙제{FPS.java" element4="/src&lt;숙제{RTS.java" element5="/src&lt;숙제{Game.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1712207210903" units="5" version="1.0"/>
+</session>

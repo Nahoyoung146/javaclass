@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;Unit.d1().d1&apos; in &apos;Unit.d1()&apos; to field&#x0D;&#x0A;- Original project: &apos;Class14-1&apos;&#x0D;&#x0A;- Original element: &apos;Unit.d1().d1&apos;&#x0D;&#x0A;- Field name: &apos;d1&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;d1&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;{Unit.java" name="d1" selection="402 10" stamp="1704846435263" static="false" version="1.0" visibility="2"/>
+</session>

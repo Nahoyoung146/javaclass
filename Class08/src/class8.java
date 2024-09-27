@@ -1,0 +1,76 @@
+//1. 지하철 길찾기
+//2. 왕과 거지 게임
+
+import java.util.Scanner;
+
+public class class8 {
+	public static void main(String[] args) {
+		String[] station = {"김포공항", "공항시장", "마곡나루", "양천향교", "가양", "증미", "당산", "국회의사당", "여의도"};
+		
+		Scanner sc = new Scanner(System.in);
+		boolean express = false;
+		int a = -1;
+		int b = -1;
+		
+		while(true) {
+			String start = sc.next();
+			String end =sc.next();
+			System.out.println("출발지 : " + start);
+			System.out.println("도착지 : " + end);
+			
+			for(int i=0;i<station.length;i++) {	
+				if((i%2==0 && end.equals(station[i])) || (i%2==0 && start.equals(station[i])))
+					express =true;
+
+				if(start.equals(station[i]))
+					a=i;
+							
+				if(end.equals(station[i]))
+					b=i;
+			}
+			
+			if(a==-1 || b==-1)
+				System.out.println("다시 입력해 주세요.");
+			else
+				break;
+		}
+
+		if(a%2==1 && b%2==0) {
+			if(a+1<b)
+				System.out.println(station[a+1]+"역에서 환승하세요");
+			else if(b+1<a)
+				System.out.println(station[a-1]+"역에서 환승하세요");	
+		}
+		
+		if(a%2==0 && b%2==1) {
+			if(a+1<b)
+				System.out.println(station[b-1]+"역에서 환승하세요");
+			else if(b+1<a)
+				System.out.println(station[b+1]+"역에서 환승하세요");	
+		}
+				
+	
+		if(a<b) {
+			for(int i=a; i<=b; i++) {
+				if((express && i%2==0))
+					System.out.print(station[i++]+ " ");
+				
+				else 
+					System.out.print(station[i]+ " ");
+			}
+		}
+			
+		else {
+			for(int i=a; b<=i; i--) {
+				if((express && i%2==0))
+					System.out.print(station[i--]+ " ");
+				
+				else
+					System.out.print(station[i]+ " ");
+			}
+		}
+		
+		if(a%2==0 && b%2==1)
+			System.out.println(station[b]);
+	}
+}
